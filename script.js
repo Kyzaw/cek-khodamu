@@ -27,6 +27,7 @@ function generateKhodamName() {
     document.getElementById("khodam-description").textContent =
       "Hai Raka, khodam kamu adalah Koko Jambu, karena Koko Jambu adalah koko jambu itu koko jambu kan koko jambu pokoknya koko jambu atau pragos lah.";
     document.getElementById("result").style.display = "block";
+    document.getElementById("output-name").textContent = name;
     return; // Hentikan fungsi lebih lanjut jika nama adalah Dzikri
   }
 
