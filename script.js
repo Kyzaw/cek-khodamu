@@ -19,6 +19,7 @@ function generateKhodamName() {
     document.getElementById("khodam-name").textContent = "Jali";
     document.getElementById("khodam-description").textContent = "Dzikri adalah pemilik Jali, karena jali adalah bapak kamu jadi khodam kamu adalah bapakmu.";
     document.getElementById("result").style.display = "block";
+    document.getElementById("output-name").textContent = name;
     return; // Hentikan fungsi lebih lanjut jika nama adalah Dzikri
   }
 
